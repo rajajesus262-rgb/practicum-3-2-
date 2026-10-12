@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitSphere Workout Feedback</title>
+</head>
+<body>
+
+    <h2>FitSphere Fitness</h2>
+    <h3>Workout Feedback Form</h3>
+    <p>Your Feedback Helps Us Improve!</p>
+
+    <form action="#" method="post">
+
+        <label for="name">Member Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="workout">Workout Type:</label>
+        <select id="workout" name="workout" required>
+            <option value="">Select Workout</option>
+            <option value="Cardio">Cardio</option>
+            <option value="Yoga">Yoga</option>
+            <option value="Strength Training">Strength Training</option>
+            <option value="Zumba">Zumba</option>
+        </select>
+        <br><br>
+
+        <label for="rating">Workout Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="">Select Rating</option>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+        </select>
+        <br><br>
+
+        <label for="feedback">Your Feedback:</label>
+        <br>
+        <textarea id="feedback" name="feedback"
+                  rows="5" cols="30"
+                  placeholder="Share your experience"
+                  required></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
